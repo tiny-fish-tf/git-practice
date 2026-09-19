@@ -1,4 +1,5 @@
 def add (a,b):
+    print("add called")
     return a+b
 
 def div(a,b):
