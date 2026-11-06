@@ -14,8 +14,8 @@ jobs:
           echo "Commit: ${{ github.sha }}"
       - name: Runner Information
         run: |
-          echo "Runner: ${{ runner.name }}
-          echo "OS: ${{ runner.os }}
-          echo "Architecture: ${{ runner.arch }}
-          echo "Environment: ${{ runner.environment }}
-          echo "Temp: ${{ runner.temp }}
+          echo "Runner: ${{ runner.name }}"
+          echo "OS: ${{ runner.os }}"
+          echo "Architecture: ${{ runner.arch }}"
+          echo "Environment: ${{ runner.environment }}"
+          echo "Temp: ${{ runner.temp }}"
