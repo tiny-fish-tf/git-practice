@@ -1,0 +1,9 @@
+name: World
+on: push
+jobs:
+  world:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "world"
+      - uses: actions/checkout@v4
+      
