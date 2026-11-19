@@ -1,0 +1,9 @@
+name: Practice
+on: push
+jobs:
+  practice:
+    runs-on: ubuntu-latest
+      steps:
+        - run: echo "Hello"
+        - uses: actions/checkout@v4
+        - run: ls -la
